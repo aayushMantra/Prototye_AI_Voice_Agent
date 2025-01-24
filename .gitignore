@@ -1,0 +1,32 @@
+# Virtual Environment
+voice-agent-env/
+venv/
+env/
+
+# Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.rasa/cache/
+
+
+# Build
+build/
+dist/
+node_modules/
+
+# Secrets
+.env
+config.ini
+secrets.yaml
+token.json
+credentials.yml
+
+# IDE
+.idea/
+.vscode/
+
+# Local
+*.log
+*.db
+*.sqlite3
