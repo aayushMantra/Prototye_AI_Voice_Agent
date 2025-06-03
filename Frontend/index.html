@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Voice Agent - Live Recording</title>
+    <title>AI Voice Agent - Intelligent Assistant</title>
     <link rel="stylesheet" href="/static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -11,8 +11,8 @@
 <body>
     <div class="container">
         <header class="app-header">
-            <h1><i class="fas fa-microphone-alt"></i> AI Voice Assistant</h1>
-            <p class="subtitle">Transform your speech into text instantly</p>
+            <h1><i class="fas fa-robot"></i> AI Voice Assistant</h1>
+            <p class="subtitle">Your Intelligent Meeting Scheduler</p>
         </header>
 
         <main>
@@ -26,28 +26,28 @@
                         <i class="fas fa-stop-circle"></i>
                         Stop
                     </button>
-                    <button id="clearTranscription" class="btn clear">
+                    <button id="clearChat" class="btn clear">
                         <i class="fas fa-trash-alt"></i>
-                        Clear
+                        Clear Chat
                     </button>
                 </div>
             </div>
 
             <div class="status-container">
                 <div id="recordingStatus" class="status"></div>
-                <div id="audioVisualizer" class="visualizer"></div>
             </div>
 
-            <section class="transcription-section">
-                <h2><i class="fas fa-file-alt"></i> Transcription Results</h2>
-                <div id="transcription" class="transcription-box">
-                    <p class="placeholder">Your transcribed text will appear here...</p>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-message">
+                        <p>Hello! I'm your AI assistant. How can I help you schedule meetings today?</p>
+                    </div>
                 </div>
-            </section>
+            </div>
         </main>
 
         <footer class="app-footer">
-            <p><i class="fas fa-robot"></i> Powered by OpenAI Whisper Small Model</p>
+            <p><i class="fas fa-microphone-alt"></i> Voice Powered by Whisper | <i class="fas fa-brain"></i> Intelligence by Rasa</p>
         </footer>
     </div>
 

@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.routers import audio
+from backend.app.routers import audio, rasa_chat
 
 app = FastAPI(title="AI Voice Agent Prototype")
 
@@ -18,8 +18,9 @@ app.add_middleware(
 # Mount the static files directory
 app.mount("/static", StaticFiles(directory="Frontend/static"), name="static")
 
-# Include the audio router
+# Include routes
 app.include_router(audio.router)
+app.include_router(rasa_chat.router)
 
 @app.get("/", response_class=HTMLResponse)
 def read_root():

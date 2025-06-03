@@ -1,1 +1,0 @@
- Hi, how are you? What are you doing? This is AI voice assistant. This is transform your speech into the text instantly. This is having a button named start recording, stop and clear. Here we have one progress bar saying recording in progress. Here we have transcription result which will be displayed very soon.

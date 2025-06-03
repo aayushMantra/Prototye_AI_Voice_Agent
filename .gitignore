@@ -30,3 +30,22 @@ credentials.yml
 *.log
 *.db
 *.sqlite3
+
+"# Transcriptions and recordings
+backend/app/transcriptions/
+backend/app/uploads/
+
+# Virtual Environment (additional)
+.venv/
+
+# Rasa
+backend/.rasa/
+backend/rasa_project/
+models/
+
+# Screenshots
+ScreenShots/
+
+# Misc
+commands.txt
+prompts.txt"

@@ -1,0 +1,36 @@
+Here are powerful test prompts to thoroughly evaluate the model:
+
+Multiple contacts with different formats:
+Call Aayush, Shelly and Megha for meetings
+Schedule meetings with Raj & Deepshikha
+Set up calls with Aayush plus Shelly plus Megha
+
+Single contact variations:
+Schedule a one hour meeting with Aayush
+Set up a 30 minute call with Shelly
+Quick meeting with Raj
+Urgent meeting needed with Megha
+
+Mixed intent testing:
+Hi, can you schedule a meeting with Aayush?
+Hello! I need meetings with Shelly and Raj
+Show calendar and then schedule meeting with Megha
+
+Complex sequences:
+First call Aayush, then schedule meetings with Shelly and Raj
+Share calendar with everyone and set up meetings
+Check availability for all team members
+
+Calendar related:
+Show my calendar for today
+What slots are free tomorrow
+Display my availability this week
+Share calendar with Aayush
+
+// ToDo: Add teams logic -> where user can say -> I need to meet with the finance team. then agent should ask that who are the team members in your finance team so I can schedule the meeting with them.
+// ToDo: Add a logic for our model be able to recognize day and timing!
+// ToDo: Add a logic for recognizing surnames in a name!
+// ToDo: Improve the messages we have given for updates to our model!
+// ToDo Add a logic for reservation and bookings of tables at restaurants -> Update nlu.yml, domain.yml, stories.yml and actions.py!
+
+      
